@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sağlam çəki</string>
+    <string name="famale">qadın</string>
+    <string name="male">kişi</string>
+    <string name="boy_tv">Boy</string>
+    <string name="kilo_tv">Çəki</string>
+    <string name="gender">Cinsiyyət</string>
+    <string name="ideal_kilo">İdeal çəki</string>
+    <string name="zayif">Arıq</string>
+    <string name="cokZayif">Çox arıq</string>
+    <string name="normal">İdeal çəki</string>
+    <string name="fazlaKilo">Artıq çəki</string>
+    <string name="obezite">Təhlükəli dərəcədə kök</string>
+    <string name="durum">Vəziyyət</string>
+</resources>
