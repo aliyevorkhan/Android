@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Healthy weight</string>
+    <string name="famale">famale</string>
+    <string name="male">male</string>
+    <string name="boy_tv">Height</string>
+    <string name="kilo_tv">Weight</string>
+    <string name="gender">Gender</string>
+    <string name="ideal_kilo">Ideal weight</string>
+    <string name="zayif">Underweight</string>
+    <string name="cokZayif">Underweight</string>
+    <string name="normal">Normal</string>
+    <string name="fazlaKilo">Overweight</string>
+    <string name="obezite">Obese</string>
+    <string name="durum">Status</string>
+</resources>

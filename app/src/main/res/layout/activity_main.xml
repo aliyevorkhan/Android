@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="right"
+    android:background="#fff"
+    android:columnCount="2"
+    android:orientation="horizontal"
+    android:useDefaultMargins="true"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_gravity="right|center_vertical"
+        android:layout_row="0"
+        android:text="@string/boy_tv"
+        android:textAllCaps="false"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_gravity="fill_horizontal"
+        android:layout_row="0"
+        android:digits="0123456789"
+        android:inputType="number"
+        android:maxLength="3">
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/boy_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_gravity="fill_horizontal"
+        android:layout_row="0"
+        android:background="@android:color/darker_gray"
+        android:padding="@dimen/padding_tv"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_gravity="right|center_vertical"
+        android:layout_row="1"
+        android:text="@string/kilo_tv"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/kilo_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_row="2"
+        android:text="50 kg"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_gravity="fill_horizontal"
+        android:layout_row="1"
+        android:progress="20" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_gravity="right|center_vertical"
+        android:layout_row="3"
+        android:text="@string/gender"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_gravity="fill_horizontal"
+        android:layout_row="3"
+        android:orientation="horizontal">
+
+
+        <RadioButton
+            android:id="@+id/rbFemale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="true"
+            android:text="@string/famale" />
+
+        <RadioButton
+            android:id="@+id/rbMale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:text="@string/male" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_gravity="right|center_vertical"
+        android:layout_row="4"
+        android:text="@string/ideal_kilo"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/ideal_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_gravity="fill_horizontal"
+        android:layout_row="4"
+        android:background="@android:color/holo_blue_bright"
+        android:padding="@dimen/padding_tv" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_gravity="right|center_vertical"
+        android:layout_row="5"
+        android:text="@string/durum"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/durum_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_gravity="fill_horizontal"
+        android:layout_row="5"
+        android:background="@android:color/holo_green_dark"
+        android:padding="@dimen/padding_tv" />
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="6" />
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="2" />
+
+</GridLayout>

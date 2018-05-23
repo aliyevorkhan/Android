@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">kitleEndeksi</string>
+    <string name="famale">kadın</string>
+    <string name="male">erkek</string>
+    <string name="kilo_tv">Kilo</string>
+    <string name="boy_tv">Boy</string>
+    <string name="gender">Cinsiyyet</string>
+    <string name="ideal_kilo">İdeal kilo</string>
+    <string name="durum">Durum</string>
+    <string name="obezite">Obezite</string>
+    <string name="zayif">Zayıf</string>
+    <string name="normal">İdeal kilo</string>
+    <string name="fazlaKilo">Fazla kilo</string>
+    <string name="cokZayif">Çok zayıf</string>
+</resources>
