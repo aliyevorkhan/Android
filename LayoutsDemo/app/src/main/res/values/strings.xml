@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">LayoutsDemo</string>
+    <string name="linear_layout">Linear Layout</string>
+</resources>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvStat"
+            android:text="Istatistikler"
+            android:layout_margin="10dp"
+            android:textColor="#2800FF"
+            android:layout_width="184dp"
+            android:layout_height="184dp"/>
+        <TextView
+            android:id="@+id/tvBilg"
+            android:text="Bilgiler"
+            android:layout_margin="10dp"
+            android:textColor="#FF0002"
+            android:layout_width="184dp"
+            android:layout_height="184dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_height="65dp">
+        <EditText
+            android:id="@+id/etIsim"
+            android:hint="isim girin"
+            android:layout_width="120dp"
+            android:layout_margin="10dp"
+            android:layout_height="50dp" />
+        <Button
+            android:layout_width="46dp"
+            android:text="ok"
+            android:id="@+id/okIsim"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            />
+        <EditText
+            android:id="@+id/etId"
+            android:hint="id girin"
+            android:layout_width="120dp"
+            android:layout_margin="10dp"
+            android:layout_height="50dp" />
+        <Button
+            android:layout_width="46dp"
+            android:text="ok"
+            android:id="@+id/okId"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_height="65dp">
+
+        <Button
+            android:layout_width="116dp"
+            android:text="yemek"
+            android:id="@+id/btYemek"
+            android:layout_margin="10dp"
+            android:layout_height="50dp" />
+        <Button
+            android:layout_width="116dp"
+            android:text="spor yap"
+            android:id="@+id/btSpor"
+            android:layout_margin="10dp"
+            android:layout_height="50dp" />
+        <Button
+            android:layout_width="116dp"
+            android:text="uyu"
+            android:id="@+id/uyu"
+            android:layout_margin="10dp"
+            android:layout_height="50dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_height="65dp">
+
+        <Button
+            android:layout_width="116dp"
+            android:text="calis"
+            android:id="@+id/btCalis"
+            android:layout_margin="10dp"
+            android:layout_height="50dp" />
+        <Button
+            android:layout_width="116dp"
+            android:text="mola ver"
+            android:id="@+id/btMola"
+            android:layout_margin="10dp"
+            android:layout_height="50dp" />
+        <Button
+            android:layout_width="116dp"
+            android:text="zam iste"
+            android:id="@+id/btZam"
+            android:layout_margin="10dp"
+            android:layout_height="50dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/ivScala"
+            android:layout_margin="10dp"
+            android:background="@color/colorPrimary"/>
+    </LinearLayout>
+
+
+
+
+
+
+
+
+</LinearLayout>

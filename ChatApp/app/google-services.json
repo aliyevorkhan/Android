@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "65385830492",
+    "firebase_url": "https://chatingapp-f6c45.firebaseio.com",
+    "project_id": "chatingapp-f6c45",
+    "storage_bucket": "chatingapp-f6c45.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:65385830492:android:a9c18b7d6de96889",
+        "android_client_info": {
+          "package_name": "com.example.orkhan.chatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "65385830492-km0rg44iu27reb6e5p6v61u85369o6a2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.orkhan.chatapp",
+            "certificate_hash": "9400e9cc325b5c1ecc3325b462316e3024831799"
+          }
+        },
+        {
+          "client_id": "65385830492-647mh6jp9ut8vvjnnj8p5j5v4hm9mcir.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiXwMhbbqNu_N5ELwIgApEjyjxlcDttpc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "65385830492-647mh6jp9ut8vvjnnj8p5j5v4hm9mcir.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

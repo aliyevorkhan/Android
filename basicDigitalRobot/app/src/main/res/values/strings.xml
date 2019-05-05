@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Fighter!</string>
+    <string name="Saldir">saldir</string>
+    <string name="yemekYe">Yemek Ye!</string>
+    <string name="uyu">Uyu!</string>
+    <string name="bilmece_metni">bilmece_metni</string>
+    <string name="istatistikler">istatistik</string>
+    <string name="bilgilendirme">bilgi</string>
+</resources>

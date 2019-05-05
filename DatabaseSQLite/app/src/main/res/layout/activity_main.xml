@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:orientation="horizontal"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="220dp"
+        android:layout_height="200dp"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/etAd"
+            android:layout_width="200dp"
+            android:layout_height="45dp"
+            android:layout_margin="10dp"
+            android:hint="Isim" />
+
+        <EditText
+            android:id="@+id/etSoyad"
+            android:layout_width="200dp"
+            android:layout_height="45dp"
+            android:layout_margin="10dp"
+            android:hint="Soyisim" />
+
+        <EditText
+            android:id="@+id/etTel"
+            android:layout_width="200dp"
+            android:layout_height="45dp"
+            android:layout_margin="10dp"
+            android:inputType="number"
+            android:hint="Telefon" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="148dp"
+        android:layout_height="200dp"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        >
+
+        <Button
+            android:text="Kaydet"
+            android:layout_width="100dp"
+            android:layout_height="45dp"
+            android:id="@+id/btnKaydet"
+             />
+        <Button
+            android:id="@+id/btnListele"
+            android:layout_width="100dp"
+            android:layout_height="45dp"
+            android:text="Listele" />
+        <Button
+            android:id="@+id/btnSil"
+            android:layout_width="100dp"
+            android:layout_height="45dp"
+            android:text="Sil" />
+        <Button
+            android:id="@+id/btnDuzenle"
+            android:layout_width="100dp"
+            android:layout_height="45dp"
+            android:text="Düzenle" />
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:id="@+id/VeriListele"
+        ></ListView>
+
+</LinearLayout>
